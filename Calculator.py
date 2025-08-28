@@ -1,14 +1,20 @@
-b=[+,-,*,/]
-a=float(input()), k, c=float(input())
+a=float(input())
+k=input()
+c=float(input())
+
 while True :
-    if k==b[0]:
+    if k=="+":
         print(a+c)
-    
-    elif k==b[1]:
+        
+    elif k=="-":
         print(a-c)
-    elif k==b[2]:
+        
+    elif k=="*":
         print(a*c)
-    elif:
+        
+    elif k==0:
+        print("Sifira bolunmez!")
+        
+    else:
         print(a/c)
-    elif c==0:
-    
+    break
